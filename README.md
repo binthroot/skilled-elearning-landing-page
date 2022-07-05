@@ -16,9 +16,9 @@ This is a solution to the [Skilled e-learning landing page challenge on Frontend
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
+
+A single page landing site that is a Frontend Mentor challenge.
 
 ### The challenge
 
@@ -33,10 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
+- Live Site URL: [Add live site URL here](https://strong-arithmetic-69243a.netlify.app/)
 
 ### Built with
 
