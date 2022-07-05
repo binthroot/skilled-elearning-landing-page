@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <title>Frontend Mentor | Skilled e-learning landing page</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header>
+      <nav class="nav flex justify-between items-end p-4 md:px-10 lg:px-36">
+        <img src="./assets/logo-dark.svg" class="w-20 lg:w-28" alt="" />
+        <button
+          class="bg-darkIndigo-800 text-white rounded-full px-4 py-2 hover:bg-indigo-400 z-10"
+        >
+          Get Started
+        </button>
+      </nav>
+    </header>
+    <!-- Main Content -->
+    <main
+      class="flex flex-col p-4 items-center md:flex-row mx-4 mt-10 lg:mx-36 lg:mt-28"
+    >
+      <!-- Headline -->
+      <div class="flex flex-col space-y-6 max-w-sm items-start lg:max-w-md">
+        <h1 class="text-4xl font-bold lg:text-5xl">
+          Maximize skill, minimize budget
+        </h1>
+        <p class="lg:text-lg">
+          Our modern courses across a range of in-demand skills will give you
+          the knowledge you need to live the life you want.
+        </p>
+        <button
+          class="bg-gradient-to-t from-gradientPink-800 to-gradientPink-100 rounded-full text-white px-4 py-2 hover:opacity-50"
+        >
+          Get Started
+        </button>
+      </div>
+      <div class="main__hero--mobile">
+        <img src="assets/image-hero-mobile.png" class="md:hidden" alt="" />
+      </div>
+      <img
+        class="main__hero--tablet absolute top-0 right-0 -mt-[7rem] -mr-[17rem] scale-90 hidden md:block lg:hidden"
+        src="assets/image-hero-tablet.png"
+        alt=""
+      />
+      <img
+        class="main__hero--desktop absolute top-0 right-0 -mt-[12rem] -mr-[24rem] scale-90 hidden lg:block xl:scale-105"
+        src="assets/image-hero-desktop.png"
+        alt=""
+      />
+    </main>
+    <!-- Grid Sections -->
+    <section
+      class="cards grid grid-rows-1 gap-x-2 gap-y-14 px-4 pb-10 -mt-10 bg-gradient-to-t from-gradientBg-800 to-white md:mt-40 md:px-10 md:grid-cols-2 lg:mt-60 lg:px-36 lg:grid-cols-3 xl:mt-72"
+    >
+      <!-- Start of Cards -->
+      <div
+        class="cards__intro-gradient text-white px-2 py-6 bg-gradient-to-t from-gradientPink-800 to-gradientPink-100 rounded-md"
+      >
+        <h2 class="ml-4 text-xl w-48 font-bold">
+          Check out our most popular courses!
+        </h2>
+      </div>
+      <div
+        class="cards__animation bg-white rounded-md shadow-sm px-4 py-10 space-y-4"
+      >
+        <img src="assets/icon-animation.svg" alt="" class="absolute -mt-16" />
+        <h3 class="text-lg text-black font-bold">Animation</h3>
+        <p>
+          Learn the latest animation techniques to create stunning motion design
+          and captivate your audience.
+        </p>
+        <p><a href="#" class="text-textPink-800 font-bold">Get Started</a></p>
+      </div>
+      <div
+        class="cards__design bg-white rounded-md shadow-sm px-4 py-10 space-y-4"
+      >
+        <img src="assets/icon-design.svg" alt="" class="absolute -mt-16" />
+        <h3>Design</h3>
+        <p>
+          Create beautiful, usable interfaces to help shape the future of how
+          the web looks.
+        </p>
+        <p><a href="#" class="text-textPink-800 font-bold">Get Started</a></p>
+      </div>
+      <div
+        class="cards__photography bg-white rounded-md shadow-sm px-4 py-10 space-y-4"
+      >
+        <img src="assets/icon-photography.svg" alt="" class="absolute -mt-16" />
+        <h3>Photography</h3>
+        <p>
+          Explore critical fundamentals like lighting, composition, and focus to
+          capture exceptional photos.
+        </p>
+        <p><a href="#" class="text-textPink-800 font-bold">Get Started</a></p>
+      </div>
+      <div
+        class="cards__crypto bg-white rounded-md shadow-sm px-4 py-10 space-y-4"
+      >
+        <img src="assets/icon-crypto.svg" alt="" class="absolute -mt-16" />
+        <h3>Crypto</h3>
+        <p>
+          All you need to know to get started investing in crypto. Go from
+          beginner to advanced with this 54 hour course.
+        </p>
+        <p><a href="#" class="text-textPink-800 font-bold">Get Started</a></p>
+      </div>
+      <div
+        class="cards__business bg-white rounded-md shadow-sm px-4 py-10 space-y-4"
+      >
+        <img src="assets/icon-business.svg" alt="" class="absolute -mt-16" />
+        <h3>Business</h3>
+        <p>
+          A step-by-step playbook to help you start, scale, and sustain your
+          business without outside investment.
+        </p>
+        <p><a href="#" class="text-textPink-800 font-bold">Get Started</a></p>
+      </div>
+    </section>
+    <footer
+      class="bg-darkIndigo-800 nav flex justify-between items-end p-4 md:px-4 lg:px-36"
+    >
+      <img src="./assets/logo-light.svg" class="w-20 lg:w-28" alt="" />
+      <button
+        class="bg-gradient-to-t from-gradientPurple-800 to-gradientPurple-100 text-white rounded-full px-4 py-2 hover:opacity-40 z-10"
+      >
+        Get Started
+      </button>
+    </footer>
+  </body>
+</html>
